@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ikit_biometric_connector *.css
+recursive-include ikit_biometric_connector *.csv
+recursive-include ikit_biometric_connector *.html
+recursive-include ikit_biometric_connector *.ico
+recursive-include ikit_biometric_connector *.js
+recursive-include ikit_biometric_connector *.json
+recursive-include ikit_biometric_connector *.md
+recursive-include ikit_biometric_connector *.png
+recursive-include ikit_biometric_connector *.py
+recursive-include ikit_biometric_connector *.svg
+recursive-include ikit_biometric_connector *.txt
+recursive-exclude ikit_biometric_connector *.pyc
